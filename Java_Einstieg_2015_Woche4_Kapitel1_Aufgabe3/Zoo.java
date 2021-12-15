@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 public class Zoo {
     // Lege hier das Attribut tiere an:
+    HashMap<String,ArrayList<Object>> tiere = new HashMap<>();
     
     public Zoo() {
         Papagei alex = new Papagei();
@@ -18,6 +19,15 @@ public class Zoo {
         nestor.setName("Nestor");
         
         // Fuelle hier die Listen und die Map
+        ArrayList<Papagei> papageien = new ArrayList<>();
+        papageien.add(alex);
+        papageien.add(jaspar);
+        papageien.add(kiki);        
+        ArrayList<Pinguin> pinguine = new ArrayList<>();
+        pinguine.add(tux);
+        pinguine.add(nestor);
+        tiere.put("Papagei", papageien);
+        tiere.put("Pinguine", pinguine);
 
     }
 
