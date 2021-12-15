@@ -1,0 +1,20 @@
+Java Einstieg 2015 Woche3 Kapitel3 Aufgabe3
+======================
+In dieser Aufgabe soll in der Klasse Zoo ein Array mit Vögeln erstellt werden.
+
+Das erste Element des Arrays ist ein Pinguin,
+Element zwei und drei sind Papageien,
+Element vier ist ein Specht.
+
+Jeder dieser Vögel soll fähig sein, ein typisches Geräusch zu machen.
+Der Papagei sagt: Mein Name ist + seinen Namen. Die Papageien können unterschiedliche Namen haben.
+Der Pinguin sagt: Trrrrrrrooo (am besten ihr kopiert das von hier, damit auch die Anzahl der Buchstaben stimmt)
+Der Specht sagt: KlopfKlopf
+
+Wir haben die Klassen der einzelnen Vögel schon für euch vorbereitet.
+Eure Aufgabe ist es
+1. die Vererbungshierarchie zu implementieren und
+2. in jeder Klasse das Attribut, welches das Geräusch enthält, passend für das jeweilige Tier zu setzen und
+4. in der Klasse Papagei soll die Möglichkeit geschaffen werden, jedem Papagei einen separaten Namen zu geben. Um von aussen auf diesen Namen zugreifen zu können soll es einen Getter für dieses Attribut geben (getName).
+
+In der Klasse Zoo sollt ihr dann noch eine Methode implementieren, die jedes der Geräusche der einzelnen Vögel im Array auf einer neuen Zeile der Kommandozeile ausgibt. Auch diese Methode haben wir schon für euch vorbereitet.

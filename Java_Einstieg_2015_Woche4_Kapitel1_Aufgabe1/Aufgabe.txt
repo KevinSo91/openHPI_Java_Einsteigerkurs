@@ -1,0 +1,3 @@
+Java Einstieg 2015 Woche4 Kapitel1 Aufgabe1
+======================
+In dieser Aufgabe soll eine ArrayList angelegt und befüllt werden. In einem Zoo leben drei Papgeien - Alex, Jaspar und Kiki. Erzeuge ein neues Attribut. Dieses Attribut soll eine (leere) ArrayList mit dem Datentyp "Papagei" sein und den Bezeichner "papageien" haben. Füge die drei Papageien Alex, Jaspar und Kiki in diese Liste ein. Dabei soll die Reihenfolge nicht abgeändert werden.
