@@ -1,3 +1,5 @@
+package Java_Einstieg_2015_Woche4_Kapitel1_Aufgabe3;
+
 public class Papagei {
     String name = "";
 

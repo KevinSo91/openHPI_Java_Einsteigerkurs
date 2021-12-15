@@ -1,3 +1,4 @@
+package Java_Einstieg_2015_Woche4_Kapitel1_Aufgabe3;
 import java.util.ArrayList;
 import java.util.HashMap;
 
