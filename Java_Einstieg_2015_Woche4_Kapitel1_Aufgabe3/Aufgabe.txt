@@ -1,0 +1,4 @@
+Java Einstieg 2015 Woche4 Kapitel1 Aufgabe3
+======================
+Der Zoodirektor hat festgestellt, dass er sich die ganzen Namen der Tiere nicht merken kann. Die Implementierung aus der vorherigen Aufgabe bringt ihm daher sehr wenig. Er schlägt deshalb vor, die Tiere nicht nach ihren Namen sondern vielmehr nach ihrer Art zu sortieren. Er möchte also sehr einfach an eine List mit allen Papageien oder allen Pinguinen kommen.
+Dazu erstelle eine HashMap mit dem Bezeichner tiere, die als Schlüssel einen String hat, der angibt um was für Tiere es sich handelt und als Wert eine Liste mit allen Tieren dieser Art. Füge danach alle Papageien in eine Liste ein und speichere diese mit dem Schlüssel "Papagei" in der Map. Tue dies identisch für die Pinguine (Schlüssel: "Pinguin").
