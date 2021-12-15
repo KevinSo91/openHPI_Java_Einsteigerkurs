@@ -1,7 +1,10 @@
+package Java_Einstieg_2015_Woche4_Kapitel1_Aufgabe2;
+
 import java.util.HashMap;
 
 public class Zoo {
     // Lege hier das Attribut papageien an:
+    HashMap<String, Papagei> papageien = new HashMap<>();
     
     public Zoo() {
         Papagei alex = new Papagei();
@@ -11,6 +14,9 @@ public class Zoo {
         Papagei kiki = new Papagei();
         kiki.setName("Kiki");
         // Fuelle hier die Map
+        papageien.put("Alex", alex);
+        papageien.put("Jaspar", jaspar);
+        papageien.put("Kiki", kiki);
     }
     
     public HashMap getPapageien() {
