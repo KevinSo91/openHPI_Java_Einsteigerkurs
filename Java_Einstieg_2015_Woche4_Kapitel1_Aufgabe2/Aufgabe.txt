@@ -1,0 +1,4 @@
+Java Einstieg 2015 Woche4 Kapitel1 Aufgabe2
+======================
+In dieser Aufgabe geht es um das Benutzen einer HashMap. Der Zoo möchte schnell überprüfen können, ob es einen Papagei mit einem bestimmten Namen im Zoo gibt.
+Damit wir dies möglichst einfach unterstützen können, speichern wir die Papageien nicht mehr in einer Liste, sondern nun in einer HashMap. Diese Map hat als Schlüssel den Namen vom Typ String und als Wert den Papagei, also vom Typ Papagei, mit diesem Namen. Du sollst nun in dieser Aufgabe diese HashMap als Attribut anlegen und die drei Papageien dieser HashMap hinzufügen.
